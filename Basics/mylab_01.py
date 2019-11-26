@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov 26 22:09:01 2019
-
 @author: Lorenzo Negri
 """
 
