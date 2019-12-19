@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Lorenzo Negri
 ---
 
 ## Lorenzo Negri Programming
