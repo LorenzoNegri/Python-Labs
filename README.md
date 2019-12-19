@@ -4,7 +4,7 @@ Here you can view my programming laboratories and experiments coding in Data Sci
 
 The list of topics:
  - [Basic Operations](https://github.com/LorenzoNegri/Python-Labs/tree/master/Basics)
- - [Analyzing Data with Python](https://github.com/LorenzoNegri/Python-Labs/tree/master/Analyzing%20Data%20with%20Python): From simple to Pro.
- - [Visiualizing Data with Python](https://lorenzonegri.github.io/Python-Labs/): .
- - [Data Science Fundamentals](https://lorenzonegri.github.io/Python-Labs/): From simple to Pro.
+ - [Analyzing Data with Python](https://github.com/LorenzoNegri/Python-Labs/tree/master/Analyzing%20Data%20with%20Python)
+ - [Visiualizing Data with Python](https://lorenzonegri.github.io/Python-Labs/)
+ - [Data Science Fundamentals](https://lorenzonegri.github.io/Python-Labs/)
 
