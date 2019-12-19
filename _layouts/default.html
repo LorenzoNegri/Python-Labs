@@ -35,9 +35,11 @@
 	{% endif %}
         </section>
         <hr>
-        <section id="main_content">
-          {{ content }}
-        </section>
+    	<main class="page-content" aria-label="Content">
+      		<div class="wrapper">
+        		{{ content }}
+      		</div>
+    	</main>
 
         <footer>
         {% if site.github.is_project_page %}
