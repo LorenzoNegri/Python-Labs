@@ -64,6 +64,7 @@ x.strip(".gorw") # discards . g o r and all the w
     'python'
 
 **How to replace specific characters from a string?**
+
 With .maketrans and .translate
 
 ```python
