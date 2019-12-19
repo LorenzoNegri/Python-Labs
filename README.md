@@ -12,7 +12,7 @@ Next, below, I showcase some coding of what you can find the links above.
 
 ### Import shelve 
 
-It's a useful module to manage and create simple dictionaries/databases on the fly and to deal with massive dictionaries. It could be to slow for some real big data. A simple example of shelve use:
+It's a useful module to manage and create simple dictionaries/databases on the fly and to deal with massive dictionaries. It could be to slow for some real big data. A simple example of shelve use where we can easely create and maintain a clients address book:
 
 ```python
 # shelve can be used with massive datasets
