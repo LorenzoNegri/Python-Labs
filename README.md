@@ -1,6 +1,6 @@
 ## Lorenzo Negri Programming
 
-You can use the [editor on GitHub](https://github.com/LorenzoNegri/Python-Labs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Here you can view my programming laboratories and experiments coding in Data Science field with Python; starting from some basic but sometimes interesting coding [editor on GitHub](https://github.com/LorenzoNegri/Python-Labs/edit/master/README.md) to some advanced tricks and tips.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -9,21 +9,14 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+# shelve to use for massive data
+import shelve
+mass = shelve.open("clients") # creates or writes a file
 
-# Header 1
-## Header 2
-### Header 3
+mass['ferri'] = ('barley', '565-589-3656', '123 Milan') # add all the data we need
+mass['black'] = ('alexy', '333-219-2587', '398 London') # add all the data we need
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+mass.close()
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
