@@ -47,7 +47,7 @@ Output:
 ('barley', '565-589-3656', '123 Milan')
 ```
 
-For more details about other basics coding like this one above go to my [basic operations link](https://github.com/LorenzoNegri/Python-Labs/tree/master/Basics).
+For more details about other basics coding like this one above go to my [basic operations link](https://lorenzonegri.github.io/Python-Labs/basics.html).
 
 ### Jekyll Themes
 
