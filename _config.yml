@@ -6,4 +6,11 @@ url: https://lorenzonegri.github.io
 # your repository name: /repository
 baseurl: /Python-Labs
 
+# defaults (to simplify front matter)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
 
