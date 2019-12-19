@@ -1,9 +1,3 @@
-# Lorenzo Negri Programming
-
-Python Labs and Experiments 
-
-https://lorenzonegri.github.io/Python-Labs/
-
 ## Lorenzo Negri Programming
 
 Here you can view my programming laboratories and experiments coding in Data Science field with Python; starting from some [basic operations](https://lorenzonegri.github.io/Python-Labs/basics) but still interesting coding, to some **advanced** hacking, tricks and tips on [data science fundamentals](https://lorenzonegri.github.io/Python-Labs/) coding with python.
