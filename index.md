@@ -3,7 +3,7 @@ title: Lorenzo Negri
 ---
 
 <!-- HEADER -->
-<div id="header_wrap" class="outer" markdown="1">
+<div id="header_wrap" class="toc" markdown="1">
     <header class="inner">
       <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
       <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
