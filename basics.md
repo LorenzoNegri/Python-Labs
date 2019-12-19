@@ -1,3 +1,7 @@
+layout: page
+title: "basics"
+permalink: /Python-Labs/basics/
+
 ## Basic Operations
 
 Here you can view my programming laboratories and experiments coding in Data Science field with Python; starting from some [basic operations](https://github.com/LorenzoNegri/Python-Labs/tree/master/Basics) but still interesting coding, to some **advanced** hacking, tricks and tips on [data science fundamentals](https://lorenzonegri.github.io/Python-Labs/) coding with python.
