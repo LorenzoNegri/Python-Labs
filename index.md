@@ -14,7 +14,7 @@ Here you can view my programming laboratories and experiments coding in Data Sci
 {% endfor %}
 </div>
 
-Next, below, I showcase some coding of what you can find the links above.
+Next, I showcase some coding of what you can find the links above.
 
 ### Import shelve 
 
