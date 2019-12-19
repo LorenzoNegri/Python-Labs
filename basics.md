@@ -1,8 +1,6 @@
 ---
 title: basics
-layout: template
-filename: basics.md
-permalink: /Python-Labs/basics/
+nav: true
 --- 
 
 
