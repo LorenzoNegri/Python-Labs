@@ -241,7 +241,7 @@ list("zuzzurelone, yes")
 
 ### <a name="03-id"></a> Sets
 
-![]("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/384px-Venn0001.svg.png")
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/384px-Venn0001.svg.png">](https://upload.wikimedia.org)
 
 **With `&` it finds the elements in common by the sets
 
