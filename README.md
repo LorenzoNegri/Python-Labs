@@ -1,12 +1,12 @@
 ## Lorenzo Negri Programming
 
-Here you can view my programming laboratories and experiments coding in Data Science field with Python; starting from some basic operations and interesting coding [editor on GitHub](https://github.com/LorenzoNegri/Python-Labs/edit/master/README.md) to some advanced tricks and tips.
+Here you can view my programming laboratories and experiments coding in Data Science field with Python; starting from some [basic](https://lorenzonegri.github.io/Python-Labs/) operations and interesting coding to some advanced tricks and tips on [DataSscience Fundamentals](https://lorenzonegri.github.io/Python-Labs/) coding with python.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever you commit to this repository, GitHub Pages will run [basic](https://lorenzonegri.github.io/Python-Labs/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Shelve
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It's a useful way to manage or create simple dictionaries/databases on the fly and to deal with massive dictionaries. It could be to slow for some real big data. A simple example of shelve use:
 
 ```python
 # shelve can be used with massive datasets
@@ -28,7 +28,9 @@ mass = shelve.open("clients")
 
 # read content
 print(mass['ferri'])
-
+mass.close()
+```
+```markdown
 ('barley', '565-589-3656', '123 Milan')
 ```
 
