@@ -6,6 +6,7 @@ nav: true
 ## Content:
  - [On Strings](#01-id)
  - [Lists and Tuples](#02-id)
+ - [Sets](#03-id)
  
 ### <a name="01-id"></a> String Operations
 
@@ -238,7 +239,22 @@ list("zuzzurelone, yes")
      's']
 ```
 
+### <a name="03-id"></a> Sets
 
+![]("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/384px-Venn0001.svg.png")
+
+**With `&` it finds the elements in common by the sets
+
+```python
+# & only the elements in common by the sets
+set_1=set([1,2,3,8,9])
+set_2=set([1,2,5,6,7])
+set_3=set_1 & set_2
+set_3
+```
+```markdown
+    {1, 2}
+```
 
 
 Next, below, I showcase some coding of what you can find the links above.
