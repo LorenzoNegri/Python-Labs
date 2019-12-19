@@ -190,7 +190,7 @@ print(x)
     ['A', 'W', 'Beta', 'Kakkazza', 'Zuzzorellone']
 ```
 
-**Another way of appendind lists**
+**Another way to append lists**
 
 ```python
 z=y + x
