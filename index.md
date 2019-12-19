@@ -2,22 +2,6 @@
 title: Lorenzo Negri
 ---
 
-<!-- HEADER -->
-<div id="header_wrap" class="toc" markdown="1">
-    <header class="inner">
-      <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-      <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-      <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      {% if site.show_downloads %}
-        <section id="downloads">
-          <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-          <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-        </section>
-      {% endif %}
-      {% include nav.html %}
-    </header>
-</div>
-
 ## Lorenzo Negri Programming with Python
 
 Here you can view my programming laboratories and experiments coding in Data Science field with Python; starting from some [basic operations](https://lorenzonegri.github.io/Python-Labs/basics) but still interesting coding, to some **advanced** methods like for hacking, and other tricks and tips on [data science fundamentals](https://lorenzonegri.github.io/Python-Labs/) coding with python.
