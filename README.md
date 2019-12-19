@@ -2,7 +2,7 @@
 
 Python Labs and Experiments 
 
-hhttps://lorenzonegri.github.io/Python-Labs/
+https://lorenzonegri.github.io/Python-Labs/
 
 ## Lorenzo Negri Programming
 
