@@ -242,7 +242,7 @@ list("zuzzurelone, yes")
 ### <a name="03-id"></a> Sets
 A set is a  defined collection of distinct objects. 
 
-**With `&` it finds the elements in common by the sets**
+**With `&` python returns the elements in common by sets**
 
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/384px-Venn0001.svg.png">](https://upload.wikimedia.org)
 
@@ -257,6 +257,51 @@ set_3
 ```
 ```markdown
     {1, 2}
+```
+
+**With `|` python returns the union of elements of the sets**
+
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Venn0111.svg/384px-Venn0111.svg.png">](https://upload.wikimedia.org)
+
+Two sets can be "added" together. The union of A and B, denoted by A ∪ B, is the set of all elements that are members of either A or B.
+
+```python
+# union of elements of sets
+set_1 | set_2
+```
+```markdown
+    {1, 2, 3, 5, 6, 7, 8, 9}
+```
+
+**With `.issubset()` python returns a boolean to tell us if a set is *subset* of the other**
+
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Venn_A_subset_B.svg/155px-Venn_A_subset_B.svg.png">](https://upload.wikimedia.org)
+
+If every element of set A is also in B, then A is said to be a subset of B, written A ⊆ B (pronounced A is contained in B).
+
+```python
+# check if alla elements of a set are inside the other
+set_2.issubset(set_1)
+```
+```markdown
+    False
+```
+
+**With `^` python returns the symmetric difference of the sets**
+
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Venn0110.svg/384px-Venn0110.svg.png">](https://upload.wikimedia.org)
+
+The symmetric difference, defined for sets A, B as: 
+
+[<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4e5172394b4cecafa3508bb9176a18ba15917e11">](https://wikimedia.org/)
+
+```python
+# symmetrical difference
+# all elements that are unique in the sets
+set_1 ^ set_2
+```
+```markdown
+    {3, 5, 6, 7, 8, 9}
 ```
 
 
