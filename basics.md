@@ -1,8 +1,7 @@
-'''
 layout: page
 title: "basics"
 permalink: /Python-Labs/basics/
-'''
+
 
 ## Basic Operations
 
