@@ -2,11 +2,6 @@
 nav: true
 --- 
 
-## Basic Operations
-
-Here you can view my programming laboratories and experiments coding in Data Science field with Python; starting from some [basic operations](https://github.com/LorenzoNegri/Python-Labs/tree/master/Basics) but still interesting coding, to some **advanced** hacking, tricks and tips on [data science fundamentals](https://lorenzonegri.github.io/Python-Labs/) coding with python.
-
-
 ## Content:
  - [On Strings](#some-id)
  
@@ -18,10 +13,15 @@ How to count number of spaces in a string?
 ```
     3
 
-
-
-
-Next, below, I showcase some coding of what you can find the links above.
+If you need to join text:
+```python
+x="You can have any  space or tab   long or short"
+a=x.split()
+print(a)
+"_".join(a)
+```
+    ['You', 'can', 'have', 'any', 'space', 'or', 'tab', 'long', 'or', 'short']
+    'You_can_have_any_space_or_tab_long_or_short'
 
 
 
