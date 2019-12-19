@@ -243,7 +243,9 @@ list("zuzzurelone, yes")
 A set is a  defined collection of distinct objects. 
 
 **With `&` it finds the elements in common by the sets**
+
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/384px-Venn0001.svg.png">](https://upload.wikimedia.org)
+
 A new set can also be constructed by determining which members two sets have "in common". The intersection of A and B, denoted by A ∩ B, is the set of all things that are members of both A and B. If A ∩ B = ∅, then A and B are said to be disjoint. 
 
 ```python
