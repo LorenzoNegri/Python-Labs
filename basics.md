@@ -1,4 +1,5 @@
 ---
+title: Basic Operations
 nav: true
 --- 
 
