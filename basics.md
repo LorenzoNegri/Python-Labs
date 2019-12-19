@@ -8,9 +8,15 @@ Here you can view my programming laboratories and experiments coding in Data Sci
 
 
 ## Content:
- - [Link text](#some-id)
+ - [On Strings](#some-id)
  
-Next, below, I showcase some coding of what you can find the links above.
+### <a name="some-id"></a> String Operations
+
+How to count number of spaces in a string?
+```python
+"789 10 11 12".find(' ')
+```
+    3
 
 
 
@@ -37,4 +43,4 @@ Next, below, I showcase some coding of what you can find the links above.
 
 
 
-<a name="some-id"></a> Next, below, I showcase some coding of what you can find the links above.
+Next, below, I showcase some coding of what you can find the links above.
