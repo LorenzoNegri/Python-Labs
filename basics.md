@@ -32,7 +32,7 @@ a=x.split("ss")
     'Mi::i::ipi'
 ```python
 x="Mississipi"
-b=x.split("ss",1)
+b=x.split("ss",1) # here I split only on the first pair of  "ss"
 "zz".join(b)
 ```
     'Mizzissipi'
