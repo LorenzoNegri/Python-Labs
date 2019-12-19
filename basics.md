@@ -36,7 +36,7 @@ b=x.split("ss",1)
 "zz".join(b)
 ```
     'Mizzissipi'
-**If we have a binary string, how can I convert it to integer?**
+**If there is a binary string, how can I convert it to integer?**
 ```python
 # transform binary string into number
 int("101", 2)
@@ -48,7 +48,7 @@ x="www.python.org"
 x.strip(".gorw") # discards . g o r and all the w
 ```
     'python'
-**how to replace specific characters from a string?**
+**How to replace specific characters from a string?**
 With .maketrans and .translate
 ```python
 # use RE module with .maketrans and .translate to use better replace techniques
