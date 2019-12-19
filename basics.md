@@ -9,7 +9,7 @@ Here you can view my programming laboratories and experiments coding in Data Sci
 <div class="toc" markdown="1">
 ## Content:
 
-{% for topic in /Basics/site.pages %}
+{% for topic in Basics.pages %}
 {% if topic.nav == true %}- [{{ topic.title }}]({{ topic.url | absolute_url }}){% endif %}
 {% endfor %}
 </div>
