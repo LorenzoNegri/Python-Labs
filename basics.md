@@ -1,6 +1,9 @@
-layout: page
-title: "basics"
+---
+title: basics
+layout: template
+filename: basics.md
 permalink: /Python-Labs/basics/
+--- 
 
 
 ## Basic Operations
