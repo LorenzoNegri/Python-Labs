@@ -4,9 +4,10 @@ nav: true
 --- 
 
 ## Content:
- - [On Strings](#some-id)
+ - [On Strings](#01-id)
+ - [Lists and Tuples](#02-id)
  
-### <a name="some-id"></a> String Operations
+### <a name="01-id"></a> String Operations
 
 **How to count number of spaces in a string?**
 ```python
@@ -73,7 +74,7 @@ x.strip(".gorw") # discards . g o r and all the w
 
 **How to replace specific characters from a string?**
 
-With .maketrans and .translate
+With `.maketrans()` and `.translate()`
 
 ```python
 # use RE module with .maketrans and .translate to use better replace techniques
@@ -96,22 +97,146 @@ x.translate(table)
     'a s d f '
 ```
 
+### <a name="02-id"></a> Lists and Tuples
 
+**How to append a list to a list?**
 
+```python
+# adding a list to the end of a list
+x=[1,2,3,4]
+x[len(x):]=[5,6,7]
+x
+```
+```markdown
+    [1, 2, 3, 4, 5, 6, 7]
+```
 
+**Adding a list before a list?**
 
+```python
+# adding a list at the start of a list
+x[:0]=[-1,0]
+x
+```
+```markdown
+    [-1, 0, 1, 2, 3, 4, 5, 6, 7]
+```
 
-Next, below, I showcase some coding of what you can find the links above.
+**Removing elements from a list**
 
+```python
+# remove elements from a list
+x[1:-1]=[] # removes elements from position 1 to "6" -1 position form end
+x
+```
+```markdown
+    [-1, 7]
+```
 
+**Append a string to a list**
 
+```python
+x=[1,2,3]
+x.append("four")
+x
+```
+```markdown
+    [1, 2, 3, 'four']
+```
 
+**Appending lists to a list**
 
+```python
+# append lists
+y=[5,6,7]
+x.extend(y)
+x
+```
+```markdown
+    [1, 2, 3, 'four', 5, 6, 7]
+```
 
+**Inserting a value in a list in a certain position**
 
+```python
+x.insert(4, 4)
+x
+```
+```markdown
+    [1, 2, 3, 'four', 4, 5, 6, 7]
+```
 
+The first value in `.insert()` is the position.
 
+```python
+x.insert(0, 'start')
+x
+```
+```markdown
+    ['start', 1, 2, 3, 'four', 4, 5, 6, 7]
+```
 
+**Fast functions to sort a list by lenght of words**
+
+```python
+# function to sort by lenght of words
+def compare_num_of_chars(x):
+    return len(x)
+x.sort(key=compare_num_of_chars)
+print(x)
+```
+```markdown
+    ['A', 'W', 'Beta', 'Kakkazza', 'Zuzzorellone']
+```
+
+**Another way of appendind lists**
+
+```python
+z=y + x
+z
+```
+```markdown
+    [7, 6, 5, 4, 3, 2, 'A', 'W', 'Beta', 'Kakkazza', 'Zuzzorellone']
+```
+
+**Creating a sequence in Tuples**
+
+```python
+# Tuples
+x=3
+y=2
+t=(x+y,x*y,x/y)
+tuple=t+(t*3)
+tuple
+```
+```markdown
+    (5, 6, 1.5, 5, 6, 1.5, 5, 6, 1.5, 5, 6, 1.5)
+```
+
+**Trick to split text into letters and make a list**
+
+```python
+# nice to split text
+list("zuzzurelone, yes")
+```
+```markdown
+    ['z',
+     'u',
+     'z',
+     'z',
+     'u',
+     'r',
+     'e',
+     'l',
+     'o',
+     'n',
+     'e',
+     ',',
+     ' ',
+     'y',
+     'e',
+     's']
+```
 
 
 
