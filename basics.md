@@ -1,5 +1,7 @@
 ---
-title: basics
+layout: page
+title: Basic Operations
+permalink: /Python-Labs/basics
 nav: true
 --- 
 
