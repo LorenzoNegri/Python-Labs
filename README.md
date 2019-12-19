@@ -1,12 +1,18 @@
 ## Lorenzo Negri Programming
 
-Here you can view my programming laboratories and experiments coding in Data Science field with Python; starting from some [basic](https://lorenzonegri.github.io/Python-Labs/) operations and interesting coding to some advanced tricks and tips on [DataSscience Fundamentals](https://lorenzonegri.github.io/Python-Labs/) coding with python.
+Here you can view my programming laboratories and experiments coding in Data Science field with Python; starting from some [basic operations](https://lorenzonegri.github.io/Python-Labs/) but still interesting coding, to some **advanced** hacking, tricks and tips on [data science fundamentals](https://lorenzonegri.github.io/Python-Labs/) coding with python.
 
-Whenever you commit to this repository, GitHub Pages will run [basic](https://lorenzonegri.github.io/Python-Labs/) to rebuild the pages in your site, from the content in your Markdown files.
+The list of topics:
+ - [Basic Operations](https://lorenzonegri.github.io/Python-Labs/): Notes, Experiments and Discovering new things.
+ - [Analyzing Data with Python](https://lorenzonegri.github.io/Python-Labs/): From simple to Pro.
+ - [Visiualizing Data with Python](https://lorenzonegri.github.io/Python-Labs/): .
+ - [Data Science Fundamentals](https://lorenzonegri.github.io/Python-Labs/): From simple to Pro.
 
-### Shelve
+Next, below, I showcase some coding of what you can find the links above.
 
-It's a useful way to manage or create simple dictionaries/databases on the fly and to deal with massive dictionaries. It could be to slow for some real big data. A simple example of shelve use:
+### Import shelve 
+
+It's a useful module to manage and create simple dictionaries/databases on the fly and to deal with massive dictionaries. It could be to slow for some real big data. A simple example of shelve use:
 
 ```python
 # shelve can be used with massive datasets
@@ -34,7 +40,7 @@ mass.close()
 ('barley', '565-589-3656', '123 Milan')
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details about other basics coding like this one above go to my [basic operations link](https://lorenzonegri.github.io/Python-Labs/).
 
 ### Jekyll Themes
 
