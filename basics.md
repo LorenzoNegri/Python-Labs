@@ -304,5 +304,28 @@ set_1 ^ set_2
     {3, 5, 6, 7, 8, 9}
 ```
 
+**Cartesian Product of sets in python**
 
+A new set can be constructed by associating every element of one set with every element of another set. The Cartesian product of two sets A and B, denoted by A × B is the set of all ordered pairs (a, b) such that a is a member of A and b is a member of B. 
+
+Let A and B be finite sets; then the cardinality of the Cartesian product is the product of the cardinalities:
+
+| A × B | = | B × A | = | A | × | B |
+
+```python
+# cartesian product
+set_1 = {1, 2}
+set_2 = {red, white, green}
+product = [{set1, set2} for set1 in set_1 for set2 in set_2]
+product
+```
+```markdown
+ [{1, 'red'},
+ {1, 'green'},
+ {1, 'white'},
+ {2, 'red'},
+ {2, 'green'},
+ {2, 'white'}]
+ ```
+ 
 Next, below, I showcase some coding of what you can find the links above.
