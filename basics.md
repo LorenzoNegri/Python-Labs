@@ -21,9 +21,10 @@ a=x.split()
 print(a)
 "_".join(a) #in this case joined with _
 ```
+```markdown
     ['You', 'can', 'have', 'any', 'space', 'or', 'tab', 'long', 'or', 'short']
     'You_can_have_any_space_or_tab_long_or_short'
-
+```
 
 
 Another way:
@@ -35,14 +36,17 @@ x="Mississipi"
 a=x.split("ss")
 "::".join(a)
 ```
+```markdown
     'Mi::i::ipi'
+```
 ```python
 x="Mississipi"
 b=x.split("ss",1) # here I split only on the first pair of  "ss"
 "zz".join(b)
 ```
+```markdown
     'Mizzissipi'
-    
+```
     
     
 **If there is a binary string, how can I convert it to integer?**
@@ -53,7 +57,9 @@ b=x.split("ss",1) # here I split only on the first pair of  "ss"
 # transform binary string into number
 int("101", 2)
 ```
+```markdown
     5
+```
 
 **How can I strip the name of a website from an URL?**
 
@@ -61,7 +67,9 @@ int("101", 2)
 x="www.python.org"
 x.strip(".gorw") # discards . g o r and all the w
 ```
+```markdown
     'python'
+```
 
 **How to replace specific characters from a string?**
 
@@ -73,7 +81,9 @@ x = "§x ^ (y % Z)"
 table = x.maketrans("§^()", "!&[]")
 x.translate(table)
 ```
+```markdown
     '!x & [y % Z]'
+```
 
 **I have a string with text and other disturbing characters, how can I remove them?**
 
@@ -82,7 +92,9 @@ x="a,s.d;f:"
 table=x.maketrans(",.;:","    ")
 x.translate(table)
 ```
+```markdown
     'a s d f '
+```
 
 
 
