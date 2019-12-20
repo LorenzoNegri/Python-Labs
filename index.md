@@ -4,7 +4,7 @@ title: Lorenzo Negri
 
 ## Lorenzo Negri Programming with Python
 
-Here you can view my programming laboratories and experiments coding in Data Science field with Python; starting from some [basic operations](https://lorenzonegri.github.io/Python-Labs/basics.html) but still interesting coding, to some **advanced** methods for hacking, and other tricks and tips on [data science fundamentals](https://lorenzonegri.github.io/Python-Labs/) coding with python.
+This is a collection of programming laboratories and experiments of my continuous improving research and coding in Data Science field with Python; starting from some [basic operations](https://lorenzonegri.github.io/Python-Labs/basics.html) but with also interesting coding, to some **advanced** methods for hacking, and other tricks and tips in [data science fundamentals](https://lorenzonegri.github.io/Python-Labs/).
 
 <div class="toc" markdown="1">
 ## Topics:
